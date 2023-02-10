@@ -1,0 +1,117 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.header-container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+/* =====================================================  HButtons ======================================================= */
+
+.HButtons {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/* =====================================================  header-socials ======================================================= */
+
+.header-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+.header-socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+/* =====================================================  MY IMAGE  ======================================================= */
+
+.edin {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 36rem;
+  height: 33rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* =====================================================  scroll-down  ======================================================= */
+
+.scroll-down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+ 
+@media screen and (max-height: 950px) {
+  header {
+    height: 100vh;
+    padding-top: 20px;
+  }
+
+  .edin {
+    margin-top: 0px;
+  }
+  .HButtons {
+    margin-bottom: 20px;
+  }
+}
+
+ 
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .header-socials,
+  .scroll-down {
+    display: none;
+  }
+
+  .edin img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: block;
+  }
+
+  .edin {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 36rem;
+    height: 25rem;
+    position: absolute;
+    
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  }
+}

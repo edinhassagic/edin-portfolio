@@ -10,9 +10,14 @@ import { useState } from "react";
 const Contact = () => {
   const form = useRef();
   const [isAlertVisible, setIsAlertVisible] = useState(false);
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
 
   const handleButtonClick = () => {
-    setIsAlertVisible(true);
+    if (fullName && email) {
+      setIsAlertVisible(true);
+    }
+   
   };
 
   setTimeout(() => {
@@ -72,8 +77,8 @@ const Contact = () => {
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="Your Fullname" required />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="name" placeholder="Your Fullname" value={fullName} onChange={(e) => setFullName(e.target.value)} required />
+          <input type="email" name="email" placeholder="Your Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
           <textarea
             name="message"
             rows="7"

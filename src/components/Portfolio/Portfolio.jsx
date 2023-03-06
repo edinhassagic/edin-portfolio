@@ -65,9 +65,7 @@ const Portfolio = () => {
             <img src={ticlogo} alt="Tic tac toe" />
           </div>
           <h3>Tic tac toe</h3>
-          <p style={{ fontSize: "12px", paddingBottom: "5px" }}>
-            Note: project is not responsive{" "}
-          </p>
+          
           <div className="portfolio-item-cta">
             {" "}
             <a
@@ -101,9 +99,7 @@ const Portfolio = () => {
             <img src={vblogo} alt="video browser" />
           </div>
           <h3>Video browser</h3>
-          <p style={{ fontSize: "12px", paddingBottom: "5px" }}>
-            Note: project is not responsive{" "}
-          </p>
+          
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"

@@ -31,7 +31,7 @@ const About = () => {
             <article className="about-card">
               <BsFolderCheck className="about-icon" />
               <h5>Projects</h5>
-              <small>5+ completed</small>
+              <small>10+ completed</small>
             </article>
           </div>
           <p>

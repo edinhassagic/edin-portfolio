@@ -6,6 +6,9 @@ import Serverslogo from "../../img/serverslogo.png";
 import ticlogo from "../../img/ticlogo.png";
 import nglogo from "../../img/nglogo.png";
 import vblogo from "../../img/vblogo.png";
+import bnaiclogo from "../../img/bnaic-portfolio.png";
+import todologo from "../../img/tic-portfolio.png";
+import pinpadlogo from "../../img/pinpad.png";
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -17,6 +20,7 @@ const Portfolio = () => {
             <img src={Boikenlogo} alt="Boiken company" />
           </div>
           <h3>Boiken company</h3>
+          <h5>Short description: Website for IT company.</h5>
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"
@@ -33,6 +37,7 @@ const Portfolio = () => {
             <img src={Solxologo} alt="SolXo company" />
           </div>
           <h3>SolXo company</h3>
+          <h5>Short description: Website for IT company.</h5>
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"
@@ -49,6 +54,7 @@ const Portfolio = () => {
             <img src={Serverslogo} alt="Serverslogo" />
           </div>
           <h3>Servers on World map</h3>
+          <h5>Short description: Links for diffrent servers in the world.</h5>
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"
@@ -65,7 +71,11 @@ const Portfolio = () => {
             <img src={ticlogo} alt="Tic tac toe" />
           </div>
           <h3>Tic tac toe</h3>
-          
+          <h5>
+            Short description: The player who succeeds in placing three of their
+            marks in a diagonal,horiznotal,or vertical row is the winner. Data
+            about names and results is stored.
+          </h5>
           <div className="portfolio-item-cta">
             {" "}
             <a
@@ -83,6 +93,10 @@ const Portfolio = () => {
             <img src={nglogo} alt="number guessing game" />
           </div>
           <h3>Number guessing game</h3>
+          <h5>
+            This is number guessing game,you need to guess number between 1 and
+            20 to win,with 10 attempts.
+          </h5>
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"
@@ -99,11 +113,69 @@ const Portfolio = () => {
             <img src={vblogo} alt="video browser" />
           </div>
           <h3>Video browser</h3>
-          
+          <h5>Search for any kind of Youtube videos.</h5>
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"
               href="https://ehavideo-browser.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
+            <img src={bnaiclogo} alt="video browser" />
+          </div>
+          <h3>BNAIC/BeNeLearn</h3>
+          <h5>
+            Short description: Website for scientific conferences in Nederland.
+          </h5>
+          <div className="portfolio-item-cta">
+            <a
+              className="btn btn-primary"
+              href="https://eha-bnaic.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
+            <img src={todologo} alt="video browser" />
+          </div>
+          <h3>To-Do List</h3>
+          <h5>Short description: You can write and delete your Todos.</h5>
+          <div className="portfolio-item-cta">
+            <a
+              className="btn btn-primary"
+              href="https://eha-todo-list.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
+            <img src={pinpadlogo} alt="video browser" />
+          </div>
+          <h3>Pin Pad</h3>
+          <h5>
+            Short description: This is PIN PAD login screen,where you have 3
+            attempts to input correct PIN, else screen will lock for 30 seconds.
+            After that, PIN PAD will reset your attempts. Correct PIN is set as
+            1234.
+          </h5>
+          <div className="portfolio-item-cta">
+            <a
+              className="btn btn-primary"
+              href="https://eha-pin-pad.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >

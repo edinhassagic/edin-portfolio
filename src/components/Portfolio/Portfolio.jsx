@@ -7,7 +7,7 @@ import ticlogo from "../../img/ticlogo.png";
 import nglogo from "../../img/nglogo.png";
 import vblogo from "../../img/vblogo.png";
 import bnaiclogo from "../../img/bnaic-portfolio.png";
-import todologo from "../../img/tic-portfolio.png";
+import bloglogo from "../../img/coverblog.png";
 import pinpadlogo from "../../img/pinpad.png";
 const Portfolio = () => {
   return (
@@ -136,24 +136,24 @@ const Portfolio = () => {
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"
-              href="https://eha-bnaic.netlify.app/"
+              href="https://bnaic2023.tudelft.nl/"
               target="_blank"
               rel="noreferrer"
             >
-              Demo
+              Live site
             </a>
           </div>
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-image">
-            <img src={todologo} alt="video browser" />
+            <img src={bloglogo} alt="video browser" />
           </div>
-          <h3>To-Do List</h3>
-          <h5>Short description: You can write and delete your Todos.</h5>
+          <h3>Blog with Hygraph CMS</h3>
+          <h5>Short description: You can add content over content management system.Blog with categories,recent posts,related posts,featured posts,author,date and comments.</h5>
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"
-              href="https://eha-todo-list.netlify.app/"
+              href="https://eha-graphql.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >

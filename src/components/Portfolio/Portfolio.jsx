@@ -24,11 +24,11 @@ const Portfolio = () => {
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"
-              href="https://boiken.ba/"
+              href="https://ehaboiken.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
-              Live site
+              Demo
             </a>
           </div>
         </article>

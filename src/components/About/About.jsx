@@ -35,10 +35,10 @@ const About = () => {
             </article>
           </div>
           <p>
-            24 years old software engineer currently living in Kakanj, BIH. I
-            have passion for creating websites in ReactJS and Webflow. Im
-            focused in creating the Websites and Web Applications which will
-            improve your business and promote you in the right way.
+            25-year-old software engineer currently living in Kakanj, BIH. I
+            have a passion for creating websites in ReactJS. I'm
+            focused on creating Websites and Web Applications that will improve
+            your business and promote you in the right way.
           </p>
           <a href="#contact" className="btn btn-primary">
             Get in touch

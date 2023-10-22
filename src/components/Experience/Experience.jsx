@@ -48,6 +48,20 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+            <article className="exp-details">
+              <BsPatchCheckFill className="exp-details-icons" />
+              <div>
+                <h4>Webflow</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="exp-details">
+              <BsPatchCheckFill className="exp-details-icons" />
+              <div>
+                <h4>WordPress</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
           </div>
         </div>
         {/* --------------------------------------------------BACKEND START--------------------------------------------------- */}
@@ -58,14 +72,14 @@ const Experience = () => {
               <BsPatchCheckFill className="exp-details-icons" />
               <div>
                 <h4>NodeJS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Fundamental</small>
               </div>
             </article>
             <article className="exp-details">
               <BsPatchCheckFill className="exp-details-icons" />
               <div>
                 <h4>MongoDB</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Fundamental</small>
               </div>
             </article>
             <article className="exp-details">

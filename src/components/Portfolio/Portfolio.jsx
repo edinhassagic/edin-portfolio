@@ -2,7 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import Boikenlogo from "../../img/logoboiken.png";
 import Solxologo from "../../img/solxo-logo.png";
-import Serverslogo from "../../img/serverslogo.png";
+import csklogo from "../../img/csk-cover.png";
 import ticlogo from "../../img/ticlogo.png";
 import nglogo from "../../img/nglogo.png";
 import vblogo from "../../img/vblogo.png";
@@ -15,6 +15,25 @@ const Portfolio = () => {
       <h5>My recent work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio-container">
+      <article className="portfolio-item">
+          <div className="portfolio-item-image">
+            <img src={bnaiclogo} alt="video browser" />
+          </div>
+          <h3>BNAIC/BeNeLearn</h3>
+          <h5>
+            Short description: Website for scientific conferences in Netherland.
+          </h5>
+          <div className="portfolio-item-cta">
+            <a
+              className="btn btn-primary"
+              href="https://bnaic2023.tudelft.nl/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live site
+            </a>
+          </div>
+        </article>
         <article className="portfolio-item">
           <div className="portfolio-item-image">
             <img src={Boikenlogo} alt="Boiken company" />
@@ -51,14 +70,14 @@ const Portfolio = () => {
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-image">
-            <img src={Serverslogo} alt="Serverslogo" />
+            <img src={csklogo} alt="csklogo" />
           </div>
-          <h3>Servers on World map</h3>
-          <h5>Short description: Links for diffrent servers in the world.</h5>
+          <h3>CSK company</h3>
+          <h5>Short description: Website for IT company.</h5>
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"
-              href="https://ehaworldmaps.netlify.app/"
+              href="https://csk-plan.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -125,25 +144,7 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-            <img src={bnaiclogo} alt="video browser" />
-          </div>
-          <h3>BNAIC/BeNeLearn</h3>
-          <h5>
-            Short description: Website for scientific conferences in Nederland.
-          </h5>
-          <div className="portfolio-item-cta">
-            <a
-              className="btn btn-primary"
-              href="https://bnaic2023.tudelft.nl/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live site
-            </a>
-          </div>
-        </article>
+        
         <article className="portfolio-item">
           <div className="portfolio-item-image">
             <img src={bloglogo} alt="video browser" />

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import HButtons from "./HButtons";
-import ME from "../../img/edincover-removebg-preview.png"
+import ME from "../../img/EDIN.jpg"
 import HeaderSocials from "./HeaderSocials";
 const Header = () => {
   return (

@@ -8,21 +8,19 @@ import nglogo from "../../img/nglogo.png";
 import vblogo from "../../img/vblogo.png";
 import bnaiclogo from "../../img/bnaic-portfolio.png";
 import bloglogo from "../../img/coverblog.png";
-import pinpadlogo from "../../img/pinpad.png";
+import pulsecode from "../../img/pulsecodeportfolio.png";
 const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My recent work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio-container">
-      <article className="portfolio-item">
+        <article className="portfolio-item">
           <div className="portfolio-item-image">
             <img src={bnaiclogo} alt="video browser" />
           </div>
           <h3>BNAIC/BeNeLearn</h3>
-          <h5>
-            Short description: Website for scientific conferences in Netherland.
-          </h5>
+          <h5>Website for scientific conferences in Netherland.</h5>
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"
@@ -36,31 +34,14 @@ const Portfolio = () => {
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-image">
-            <img src={Boikenlogo} alt="Boiken company" />
+            <img src={pulsecode} alt="PulseCode" />
           </div>
-          <h3>Boiken company</h3>
-          <h5>Short description: Website for IT company.</h5>
+          <h3>PulseCode</h3>
+          <h5>Website for IT company.</h5>
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"
-              href="https://ehaboiken.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-            <img src={Solxologo} alt="SolXo company" />
-          </div>
-          <h3>SolXo company</h3>
-          <h5>Short description: Website for IT company.</h5>
-          <div className="portfolio-item-cta">
-            <a
-              className="btn btn-primary"
-              href="https://ehasolxo.netlify.app/"
+              href="https://pulse-code.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -73,7 +54,7 @@ const Portfolio = () => {
             <img src={csklogo} alt="csklogo" />
           </div>
           <h3>CSK company</h3>
-          <h5>Short description: Website for IT company.</h5>
+          <h5>Website for IT company.</h5>
           <div className="portfolio-item-cta">
             <a
               className="btn btn-primary"
@@ -87,13 +68,85 @@ const Portfolio = () => {
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-image">
+            <img src={Boikenlogo} alt="Boiken company" />
+          </div>
+          <h3>Boiken company</h3>
+          <h5>Website for IT company.</h5>
+          <div className="portfolio-item-cta">
+            <a
+              className="btn btn-primary"
+              href="https://ehaboiken.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
+            <img src={bloglogo} alt="bloglogo" />
+          </div>
+          <h3>Blog with Hygraph CMS</h3>
+          <h5>
+            You can add content over content management system.Blog with
+            categories,recent posts,related posts,featured posts,author,date and
+            comments.
+          </h5>
+          <div className="portfolio-item-cta">
+            <a
+              className="btn btn-primary"
+              href="https://eha-graphql.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
+            <img src={Solxologo} alt="SolXo company" />
+          </div>
+          <h3>SolXo company</h3>
+          <h5>Website for IT company.</h5>
+          <div className="portfolio-item-cta">
+            <a
+              className="btn btn-primary"
+              href="https://ehasolxo.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
+            <img src={vblogo} alt="video browser" />
+          </div>
+          <h3>Video browser</h3>
+          <h5>Search for any kind of Youtube videos.</h5>
+          <div className="portfolio-item-cta">
+            <a
+              className="btn btn-primary"
+              href="https://ehavideo-browser.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
             <img src={ticlogo} alt="Tic tac toe" />
           </div>
           <h3>Tic tac toe</h3>
           <h5>
-            Short description: The player who succeeds in placing three of their
-            marks in a diagonal,horiznotal,or vertical row is the winner. Data
-            about names and results is stored.
+            The player who succeeds in placing three of their marks in a
+            diagonal,horiznotal,or vertical row is the winner. Data about names
+            and results is stored.
           </h5>
           <div className="portfolio-item-cta">
             {" "}
@@ -120,63 +173,6 @@ const Portfolio = () => {
             <a
               className="btn btn-primary"
               href="https://ehanumber-guessing-game.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-            <img src={vblogo} alt="video browser" />
-          </div>
-          <h3>Video browser</h3>
-          <h5>Search for any kind of Youtube videos.</h5>
-          <div className="portfolio-item-cta">
-            <a
-              className="btn btn-primary"
-              href="https://ehavideo-browser.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo
-            </a>
-          </div>
-        </article>
-        
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-            <img src={bloglogo} alt="video browser" />
-          </div>
-          <h3>Blog with Hygraph CMS</h3>
-          <h5>Short description: You can add content over content management system.Blog with categories,recent posts,related posts,featured posts,author,date and comments.</h5>
-          <div className="portfolio-item-cta">
-            <a
-              className="btn btn-primary"
-              href="https://eha-graphql.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-            <img src={pinpadlogo} alt="video browser" />
-          </div>
-          <h3>Pin Pad</h3>
-          <h5>
-            Short description: This is PIN PAD login screen,where you have 3
-            attempts to input correct PIN, else screen will lock for 30 seconds.
-            After that, PIN PAD will reset your attempts. Correct PIN is set as
-            1234.
-          </h5>
-          <div className="portfolio-item-cta">
-            <a
-              className="btn btn-primary"
-              href="https://eha-pin-pad.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >

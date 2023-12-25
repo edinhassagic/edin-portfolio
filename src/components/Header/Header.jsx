@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import HButtons from "./HButtons";
-import ME from "../../img/EdinNoBG.png"
+import ME from "../../img/EdinNoBG.webp"
 import HeaderSocials from "./HeaderSocials";
 const Header = () => {
   return (

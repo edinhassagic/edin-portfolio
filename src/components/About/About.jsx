@@ -21,7 +21,7 @@ const About = () => {
             <article className="about-card">
               <FaAward className="about-icon" />
               <h5>Experience</h5>
-              <small>1+ years working</small>
+              <small>2+ years working</small>
             </article>
             <article className="about-card">
               <MdOutlineSchool className="about-icon" />
@@ -35,7 +35,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            I am a 25-year-old software engineer residing in Kakanj, Bosnia and
+            I am a 26-year-old software engineer residing in Kakanj, Bosnia and
             Herzegovina. My passion lies in crafting dynamic websites using
             ReactJS. I specialize in developing websites and web applications
             designed to enhance your business and effectively showcase your

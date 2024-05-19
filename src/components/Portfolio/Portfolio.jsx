@@ -10,12 +10,50 @@ import bnaiclogo from "../../img/bnaic-portfolio.png";
 import bloglogo from "../../img/coverblog.png";
 import pulsecode from "../../img/pulsecodeportfolio.png";
 import grafikporto from "../../img/grafikporto.png"
+import abporto from "../../img/abporto.jpg"
+import anntporto from "../../img/anntporto.jpg"
 const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My recent work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio-container">
+      <article className="portfolio-item">
+          <div className="portfolio-item-image">
+            <img src={abporto} alt="video browser" />
+          </div>
+          <h3>AB Petrol</h3>
+          <h5>Website for AB Petrol.</h5>
+          <div className="portfolio-item-cta">
+            <a
+              className="btn btn-primary"
+              href="https://abpetrol.ba/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live site
+            </a>
+          </div>
+        </article>
+
+      <article className="portfolio-item">
+          <div className="portfolio-item-image">
+            <img src={anntporto} alt="video browser" />
+          </div>
+          <h3>ANNT</h3>
+          <h5>Website for ANNT.</h5>
+          <div className="portfolio-item-cta">
+            <a
+              className="btn btn-primary"
+              href="https://annt.ba/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live site
+            </a>
+          </div>
+        </article>
+
       <article className="portfolio-item">
           <div className="portfolio-item-image">
             <img src={grafikporto} alt="video browser" />

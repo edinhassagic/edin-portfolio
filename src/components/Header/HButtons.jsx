@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../img/EdinHasagic-CV.pdf"
+import CV from "../../img/EdinHasagic-CV-.pdf"
 const HButtons = () => {
   return (
     <div className="HButtons">
